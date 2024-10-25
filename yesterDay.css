@@ -1,0 +1,45 @@
+.container{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.p{
+    width: 100px;
+    height: 100px;
+    /* width: 33.33%;
+    flex-grow: 1; */
+    flex: 1 0 33.33%;
+    
+    
+}
+
+.p1{
+    background-color: red;
+    /* width: 33.33%;
+    flex-grow: 1; */
+
+
+}
+
+.p2{
+    background-color: green;
+    /* width: 33.33%;
+    flex-grow: 1; */
+    
+}
+
+.p3{
+    background-color: orange;
+    /* width: 33.33%;
+    flex-grow: 1; */
+    
+}
+
+.p4{
+    background-color: blue;
+    /* width: 100%;
+    flex-grow: 1;    */
+}
